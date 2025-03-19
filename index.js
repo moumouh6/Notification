@@ -5,11 +5,7 @@ function toggleNav() {
         document.getElementById("sidebar").classList.toggle("active"); // Ajouter ou supprimer la classe active
 }
 
-document.querySelectorAll(".site-mzl").forEach(button => {
-    button.addEventListener("click", () => {
-        alert("cette page n'est pas accessible pour le moment!");
-    });})
-    
+
 // Function to display a notification's content
 function showNotification(element) {
     document.querySelector(".main-content").innerHTML = `<p>${element.innerText}</p>`;

@@ -78,7 +78,7 @@ body {
 }
 
 .close-btn:hover {
-    transform: rotate(90deg);
+
     color: red;
 }
 
